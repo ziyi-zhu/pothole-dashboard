@@ -65,7 +65,7 @@ const Analytics = () => {
                     </svg>
                   </span>
                   <div className="media-body ml-1">
-                    <p className="mb-2">Income</p>
+                    <p className="mb-2">Cost</p>
                     <h3 className="mb-0 text-black font-w600">$126,000</h3>
                   </div>
                 </div>
@@ -93,7 +93,7 @@ const Analytics = () => {
                     </svg>
                   </span>
                   <div className="media-body ml-1">
-                    <p className="mb-2">Customer</p>
+                    <p className="mb-2">Repair</p>
                     <h3 className="mb-0 text-black font-w600">109,511</h3>
                   </div>
                 </div>
@@ -128,7 +128,7 @@ const Analytics = () => {
                     </svg>
                   </span>
                   <div className="media-body ml-1">
-                    <p className="mb-2">Last Than Year</p>
+                    <p className="mb-2">Than Last Year</p>
                     <div className="d-flex align-items-center">
                       <h3 className="mb-0 mr-3 text-black font-w600">59%</h3>
                       <svg
@@ -156,7 +156,7 @@ const Analytics = () => {
                   <div className="card-header pb-0 border-0">
                     <div className="mr-auto">
                       <h4 className="fs-20 text-black mb-0">
-                        Sales Comparison
+                        Cost Comparison
                       </h4>
                       <span className="text-black fs-20 font-w300">
                         Than last day
@@ -173,7 +173,7 @@ const Analytics = () => {
               <div className="col-xl-12">
                 <div className="card">
                   <div className="card-header border-0 pb-0 d-sm-flex d-block">
-                    <h4 className="card-title mb-1">Trending Items</h4>
+                    <h4 className="card-title mb-1">Recent Projects</h4>
                     <Dropdown className="dropdown">
                       <Dropdown.Toggle
                         as="button"
@@ -248,7 +248,7 @@ const Analytics = () => {
                       </div>
                       <div className="col-sm-4 col-12 col-xxl-5 my-3 my-sm-0 px-0">
                         <h5 className="mt-0 mb-0">
-                          <Link to={"./event"} className="text-black" >
+                          <Link to={"./potholes"} className="text-black" >
                             Beautiful Fireworks Shows In The New Year 2020
                           </Link>
                         </h5>
@@ -256,7 +256,7 @@ const Analytics = () => {
                       <div className="ml-sm-auto col-2 col-sm-2 px-0 d-flex align-self-center align-items-center">
                         <div className="text-center">
                           <h4 className="mb-0 text-black">454</h4>
-                          <span className="fs-14">Sales</span>
+                          <span className="fs-14">Potholes</span>
                         </div>
                       </div>
                       <div className="mr-3 col-2 col-sm-1">
@@ -339,7 +339,7 @@ const Analytics = () => {
                       </div>
                       <div className="col-sm-4 col-12 col-xxl-5 my-3 my-sm-0 px-0">
                         <h5 className="mt-0 mb-0">
-                          <Link to="./event" className="text-black" >
+                          <Link to="./potholes" className="text-black" >
                             Jakarta Indie Music Festival 2020
                           </Link>
                         </h5>
@@ -347,7 +347,7 @@ const Analytics = () => {
                       <div className="ml-sm-auto col-2 col-sm-2 px-0 d-flex align-self-center align-items-center">
                         <div className="text-center">
                           <h4 className="mb-0 text-black">485</h4>
-                          <span className="fs-14">Sales</span>
+                          <span className="fs-14">Potholes</span>
                         </div>
                       </div>
                       <div className="mr-3 col-2 col-sm-1">
@@ -430,7 +430,7 @@ const Analytics = () => {
                       </div>
                       <div className="col-sm-4 col-12 col-xxl-5 my-3 my-sm-0 px-0">
                         <h5 className="mt-0 mb-0">
-                          <Link to={"./event"} className="text-black" >
+                          <Link to={"./potholes"} className="text-black" >
                             Live Choir in Sydney 2020
                           </Link>
                         </h5>
@@ -438,7 +438,7 @@ const Analytics = () => {
                       <div className="ml-sm-auto col-2 col-sm-2 px-0 d-flex align-self-center align-items-center">
                         <div className="text-center">
                           <h4 className="mb-0 text-black">250</h4>
-                          <span className="fs-14">Sales</span>
+                          <span className="fs-14">Potholes</span>
                         </div>
                       </div>
                       <div className="mr-3 col-2 col-sm-1">
@@ -521,7 +521,7 @@ const Analytics = () => {
                       </div>
                       <div className="col-sm-4 col-12 col-xxl-5 my-3 my-sm-0 px-0">
                         <h5 className="mt-0 mb-0">
-                          <Link to={"./event"} className="text-black" >
+                          <Link to={"./potholes"} className="text-black" >
                             Artist Performing Festival In Aus..
                           </Link>
                         </h5>
@@ -529,7 +529,7 @@ const Analytics = () => {
                       <div className="ml-sm-auto col-2 col-sm-2 px-0 d-flex align-self-center align-items-center">
                         <div className="text-center">
                           <h4 className="mb-0 text-black">350</h4>
-                          <span className="fs-14">Sales</span>
+                          <span className="fs-14">Potholes</span>
                         </div>
                       </div>
                       <div className="mr-3 col-2 col-sm-1">
@@ -612,7 +612,7 @@ const Analytics = () => {
                       </div>
                       <div className="col-sm-4 col-12 col-xxl-5 my-3 my-sm-0 px-0">
                         <h5 className="mt-0 mb-0">
-                          <Link to={"./event"} className="text-black" >
+                          <Link to={"./potholes"} className="text-black" >
                             [LIVE] Football Charity Event 2020
                           </Link>
                         </h5>
@@ -620,7 +620,7 @@ const Analytics = () => {
                       <div className="ml-sm-auto col-2 col-sm-2 px-0 d-flex align-self-center align-items-center">
                         <div className="text-center">
                           <h4 className="mb-0 text-black">752</h4>
-                          <span className="fs-14">Sales</span>
+                          <span className="fs-14">Potholes</span>
                         </div>
                       </div>
                       <div className="mr-3 col-2 col-sm-1">
@@ -693,7 +693,7 @@ const Analytics = () => {
                       <h5 className="mb-0 text-black font-weight-bold">
                         Pie Chart
                       </h5>
-                      <p className="fs-14 mb-0">Ticket Sold</p>
+                      <p className="fs-14 mb-0">Pothole Repaired</p>
                     </div>
                     <Dropdown>
                       <Dropdown.Toggle
@@ -761,7 +761,7 @@ const Analytics = () => {
               <div className="col-xl-12 col-xxl-6 col-md-6">
                 <div className="card">
                   <div className="card-header border-0 pb-0">
-                    <h6 className="fs-16 text-black font-w600">Customers</h6>
+                    <h6 className="fs-16 text-black font-w600">Reviewers</h6>
                   </div>
                   <div className="card-body">
                     <div className="d-flex mb-4 align-items-center">
@@ -797,7 +797,7 @@ const Analytics = () => {
           <div className="col-xl-12 col-xxl-6 col-md-6">
             <div className="card">
               <div className="card-header border-0 pb-0">
-                <h4 className="card-title">Sales Summary</h4>
+                <h4 className="card-title">Road Summary</h4>
                 <Dropdown>
                   <Dropdown.Toggle
                     variant=""
@@ -875,7 +875,7 @@ const Analytics = () => {
               <div className="card-body">
                 <div className="d-flex justify-content-between fs-14 mb-4">
                   <span className="text-black">Tuesday</span>
-                  <span className="text-black">215,523 pcs</span>
+                  <span className="text-black">5,523 roads</span>
                 </div>
                 <div className="text-center">
                   <PolarAreaCharts />
@@ -893,7 +893,7 @@ const Analytics = () => {
                       <rect width={25} height={25} rx="12.5" fill="#FE634E" />
                     </svg>
                     <div>
-                      <h5 className="mb-1 text-black">VIP</h5>
+                      <h5 className="mb-1 text-black">Main</h5>
                       <span>30%</span>
                     </div>
                   </div>
@@ -909,7 +909,7 @@ const Analytics = () => {
                       <rect width={25} height={25} rx="12.5" fill="#707070" />
                     </svg>
                     <div>
-                      <h5 className="mb-1 text-black">Exclusive</h5>
+                      <h5 className="mb-1 text-black">Residential</h5>
                       <span>24%</span>
                     </div>
                   </div>
@@ -925,7 +925,7 @@ const Analytics = () => {
                       <rect width={25} height={25} rx="12.5" fill="#BFBFBF" />
                     </svg>
                     <div>
-                      <h5 className="mb-1 text-black">Reguler</h5>
+                      <h5 className="mb-1 text-black">Industrial</h5>
                       <span>30%</span>
                     </div>
                   </div>
@@ -941,7 +941,7 @@ const Analytics = () => {
                       <rect width={25} height={25} rx="12.5" fill="#F3F3F3" />
                     </svg>
                     <div>
-                      <h5 className="mb-1 text-black">Economic</h5>
+                      <h5 className="mb-1 text-black">Motorways</h5>
                       <span>2%</span>
                     </div>
                   </div>
@@ -952,7 +952,7 @@ const Analytics = () => {
           <div className="col-xl-12 col-xxl-6 col-md-6">
             <div className="card">
               <div className="card-header border-0 pb-0">
-                <h4 className="card-title">Revenue</h4>
+                <h4 className="card-title">Total Cost</h4>
                 <Dropdown className="dropdown">
                   <Dropdown.Toggle
                     as="button"
@@ -981,13 +981,13 @@ const Analytics = () => {
                     </svg>
                   </Dropdown.Toggle>
                   <Dropdown.Menu className="dropdown-menu dropdown-menu-right">
-                    <Dropdown.Item className="dropdown-item" to="/events">
+                    <Dropdown.Item className="dropdown-item" to="/potholess">
                       View Details
                     </Dropdown.Item>
-                    <Dropdown.Item className="dropdown-item" to="/events">
+                    <Dropdown.Item className="dropdown-item" to="/potholess">
                       Edit
                     </Dropdown.Item>
-                    <Dropdown.Item className="dropdown-item" to="/events">
+                    <Dropdown.Item className="dropdown-item" to="/potholess">
                       Delete
                     </Dropdown.Item>
                   </Dropdown.Menu>

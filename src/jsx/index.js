@@ -117,8 +117,8 @@ const Markup = () => {
     /// Dashboard
     { url: "", component: Home },
     { url: "dashboard", component: Home },
-    { url: "event", component: Event },
-    { url: "event-detail", component: EventDetail },
+    { url: "potholes", component: Event },
+    { url: "road-detail", component: EventDetail },
     { url: "customers", component: Customers },
     { url: "analytics", component: Analytics },
     { url: "reviews", component: Reviews },

@@ -34,7 +34,7 @@ const Home = () => {
           <div className="col-xl-12 col-md-6">
             <div className="card">
               <div className="card-header border-0 pb-0">
-                <h4 className="fs-20">Best Selling</h4>
+                <h4 className="fs-20">Pothole Severity</h4>
                 <div className="dropdown bootstrap-select form-control style-1 default-select">
                   <Dropdown>
                     <Dropdown.Toggle
@@ -120,10 +120,10 @@ const Home = () => {
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <rect width={20} height={8} rx={4} fill="#214BB8" />
+                      <rect width={20} height={8} rx={4} fill="#45ADDA" />
                     </svg>
                     <h4 className="fs-18 text-black mb-1 font-w600">21,512</h4>
-                    <span className="fs-14">Ticket Left</span>
+                    <span className="fs-14">Mild</span>
                   </div>
                   <div className="pr-2">
                     <svg
@@ -133,10 +133,10 @@ const Home = () => {
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <rect width={20} height={8} rx={4} fill="#FE634E" />
+                      <rect width={20} height={8} rx={4} fill="#214BB8" />
                     </svg>
                     <h4 className="fs-18 text-black mb-1 font-w600">45,612</h4>
-                    <span className="fs-14">Ticket Sold</span>
+                    <span className="fs-14">Moderate</span>
                   </div>
                   <div className>
                     <svg
@@ -146,10 +146,10 @@ const Home = () => {
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <rect width={20} height={8} rx={4} fill="#45ADDA" />
+                      <rect width={20} height={8} rx={4} fill="#FE634E" />
                     </svg>
                     <h4 className="fs-18 text-black mb-1 font-w600">275</h4>
-                    <span className="fs-14">Event Held</span>
+                    <span className="fs-14">Severe</span>
                   </div>
                 </div>
               </div>
@@ -158,7 +158,7 @@ const Home = () => {
           <div className="col-xl-12 col-md-6">
             <div className="card">
               <div className="card-header border-0 pb-0">
-                <h4 className="fs-20">Latest Sales</h4>
+                <h4 className="fs-20">Latest Reviews</h4>
                 <div className="dropdown bootstrap-select form-control style-1 default-select">
                   <Dropdown>
                     <Dropdown.Toggle
@@ -388,9 +388,9 @@ const Home = () => {
               <div className="card-body">
                 <div className="d-flex align-items-end">
                   <div>
-                    <p className="fs-14 mb-1">New Sales</p>
+                    <p className="fs-14 mb-1">New Potholes</p>
                     <span className="fs-35 text-black font-w600">
-                      93
+                      1293
                       <svg
                         className="ml-1"
                         width={19}
@@ -417,7 +417,7 @@ const Home = () => {
               <div className="card-body">
                 <div className="d-flex justify-content-between align-items-center">
                   <div>
-                    <p className="fs-14 mb-1">Event Held</p>
+                    <p className="fs-14 mb-1">Repaired</p>
                     <span className="fs-35 text-black font-w600">
                       856
                       <svg
@@ -522,7 +522,7 @@ const Home = () => {
             <Tab.Container defaultActiveKey="monthly">
               <div className="card" id="sales-revenue">
                 <div className="card-header pb-0 d-block d-sm-flex border-0">
-                  <h3 className="fs-20 text-black mb-0">Sales Revenue</h3>
+                  <h3 className="fs-20 text-black mb-0">Total Cost</h3>
                   <div className="card-action revenue-tabs mt-3 mt-sm-0">
                     <Nav as="ul" className="nav nav-tabs" role="tablist">
                       <Nav.Item className="nav-item">
@@ -588,7 +588,7 @@ const Home = () => {
           <div className="col-xl-12">
             <div className="card">
               <div className="card-header border-0 pb-sm-0 pb-5">
-                <h4 className="fs-20">Recent Event List</h4>
+                <h4 className="fs-20">Recent Potholes</h4>
                 <div className="dropdown custom-dropdown mb-0">
                   <Dropdown className="dropdown">
                     <Dropdown.Toggle

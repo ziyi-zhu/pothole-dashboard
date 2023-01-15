@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Dropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 // images
-import image001 from "../../../images/hill.jpg";
+import image001 from "../../../images/road.jpg";
 import Donut from "./acara/dashboardChart/Donut";
 import Donut2 from "./acara/dashboardChart/Donut2";
 import Increase from "./acara/dashboardChart/Increase";
@@ -58,20 +58,20 @@ const EventDetail = () => {
                 <div className="card-body">
                   <div className="d-flex flex-wrap align-items-center mb-4">
                     <h2 className="text-black col-xl-6 p-0 col-xxl-12 mr-auto title mb-3">
-                      Envato Atuhor Community Fun Hiking at Sibayak Mt.
+                      Abd Al Rahman Al Naser
                     </h2>
                     <div className="d-flex align-items-center">
                       <Link
-                        to="/event-detail"
+                        to="/road-detail"
                         className="btn btn-primary light mr-3"
                       >
                         <i
-                          className="fa fa-users mr-3 scale5"
+                          className="fa fa-wrench mr-3 scale5"
                           aria-hidden="true"
                         ></i>
-                        Socials Activity
+                        Repairs Activity
                       </Link>
-                      <Link to="/event-detail" className="share-icon mr-3">
+                      <Link to="/road-detail" className="share-icon mr-3">
                         <svg
                           width="24"
                           height="24"
@@ -158,9 +158,9 @@ const EventDetail = () => {
                         </svg>
                         <div className="media-body">
                           <span className="fs-12 d-block mb-1">
-                            Ticket Price
+                            Estimated Cost
                           </span>
-                          <span className="fs-16 text-black">$124,00</span>
+                          <span className="fs-16 text-black">$124,000</span>
                         </div>
                       </div>
                     </div>
@@ -213,7 +213,7 @@ const EventDetail = () => {
                         <div className="media-body">
                           <span className="fs-12 d-block mb-1">Date</span>
                           <span className="fs-16 text-black">
-                            Sunday, 12 June 2020
+                            Sunday, 15 January 2023
                           </span>
                         </div>
                       </div>
@@ -258,14 +258,14 @@ const EventDetail = () => {
                         <div className="media-body">
                           <span className="fs-12 d-block mb-1">Location</span>
                           <span className="fs-16 text-black">
-                            Blue Corner St. 123566 Franklin Avenue, London
+                            King Faisal Dt., Riyadh 13215, Saudi Arabia
                           </span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <h4 className="fs-20 text-black font-w600">
-                    Event Description
+                    Road Description
                   </h4>
                   <p className="fs-14 mb-0">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -294,82 +294,82 @@ const EventDetail = () => {
                       <thead>
                         <tr>
                           <th>
-                            <strong>Order ID</strong>
+                            <strong>Pothole ID</strong>
                           </th>
                           <th>
                             <strong>Date</strong>
                           </th>
                           <th>
-                            <strong>Customer Name</strong>
+                            <strong>Reviewer</strong>
                           </th>
                           <th>
                             <strong>Location</strong>
                           </th>
                           <th>
-                            <strong>Sold Ticket</strong>
+                            <strong>Severity</strong>
                           </th>
                           <th>
-                            <strong>Refund</strong>
+                            <strong>Repaired</strong>
                           </th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
                           <td>#0012451</td>
-                          <td>04/08/2020 12:34 AM</td>
+                          <td>04/01/2023 12:34 AM</td>
                           <td>Elisabeth Queen</td>
-                          <td>Medan, Indonesia</td>
-                          <td>4 Pcs</td>
+                          <td>Riyadh, Saudi Arabia</td>
+                          <td>Moderate</td>
                           <td>
                             <strong>NO</strong>
                           </td>
                         </tr>
                         <tr>
                           <td>#0012451</td>
-                          <td>04/08/2020 12:34 AM</td>
+                          <td>04/01/2023 12:34 AM</td>
                           <td>Elisabeth Queen</td>
-                          <td>Medan, Indonesia</td>
-                          <td>4 Pcs</td>
+                          <td>Riyadh, Saudi Arabia</td>
+                          <td>Moderate</td>
                           <td>
                             <strong>NO</strong>
                           </td>
                         </tr>
                         <tr>
                           <td>#0012451</td>
-                          <td>04/08/2020 12:34 AM</td>
+                          <td>04/01/2023 12:34 AM</td>
                           <td>Elisabeth Queen</td>
-                          <td>Medan, Indonesia</td>
-                          <td>4 Pcs</td>
+                          <td>Riyadh, Saudi Arabia</td>
+                          <td>Moderate</td>
                           <td>
                             <strong>NO</strong>
                           </td>
                         </tr>
                         <tr>
                           <td>#0012451</td>
-                          <td>04/08/2020 12:34 AM</td>
+                          <td>04/01/2023 12:34 AM</td>
                           <td>Elisabeth Queen</td>
-                          <td>Medan, Indonesia</td>
-                          <td>4 Pcs</td>
+                          <td>Riyadh, Saudi Arabia</td>
+                          <td>Moderate</td>
                           <td>
                             <strong>NO</strong>
                           </td>
                         </tr>
                         <tr>
                           <td>#0012451</td>
-                          <td>04/08/2020 12:34 AM</td>
+                          <td>04/01/2023 12:34 AM</td>
                           <td>Elisabeth Queen</td>
-                          <td>Medan, Indonesia</td>
-                          <td>4 Pcs</td>
+                          <td>Riyadh, Saudi Arabia</td>
+                          <td>Moderate</td>
                           <td>
                             <strong>NO</strong>
                           </td>
                         </tr>
                         <tr>
                           <td>#0012451</td>
-                          <td>04/08/2020 12:34 AM</td>
+                          <td>04/01/2023 12:34 AM</td>
                           <td>Elisabeth Queen</td>
-                          <td>Medan, Indonesia</td>
-                          <td>4 Pcs</td>
+                          <td>Riyadh, Saudi Arabia</td>
+                          <td>Moderate</td>
                           <td>
                             <strong>NO</strong>
                           </td>
@@ -387,19 +387,19 @@ const EventDetail = () => {
             <div className="col-xl-12 col-sm-6">
               <div className="card">
                 <div className="card-header border-0 pb-0">
-                  <h4 className="fs-20 text-black">Sales Summary</h4>
+                  <h4 className="fs-20 text-black">Road Summary</h4>
                 </div>
                 <div className="card-body pt-3">
                   <div className="d-flex justify-content-between align-items-center">
                     <span className="fs-14">Tuesday</span>
-                    <span className="text-black fs-18 font-w500">215,523 pcs</span>
+                    <span className="text-black fs-18 font-w500">215 potholes</span>
                   </div>
                   {/* <div id="radialBar"></div> */}
                   <SalesChart />
                   <div className="d-flex justify-content-between align-items-center">
                     <div>
                       <p className="fs-28 text-black font-w600 mb-1">25 Left</p>
-                      <span>Available Ticket</span>
+                      <span>Pending Repairs</span>
                     </div>
                     <div className="d-inline-block ml-auto position-relative donut-chart-sale">
                       <Donut2 value={65} backgroundColor2="#f4f4f4"/>
@@ -424,7 +424,7 @@ const EventDetail = () => {
                           </div>
                         </div>
                         <div>
-                          <p className="fs-14 mb-1">New Sales</p>
+                          <p className="fs-14 mb-1">New Potholes</p>
                           <span className="fs-35 text-black font-w600">
                             93
                             <svg
@@ -452,9 +452,9 @@ const EventDetail = () => {
                     <div className="card-body">
                       <div className="d-flex justify-content-between align-items-center">
                         <div>
-                          <p className="fs-14 mb-1">Event Held</p>
+                          <p className="fs-14 mb-1">Repaired</p>
                           <span className="fs-35 text-black font-w600">
-                            856
+                            56
                             <svg
                               className="ml-2"
                               width="19"

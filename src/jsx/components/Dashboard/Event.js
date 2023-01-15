@@ -15,9 +15,9 @@ const Event = () => {
         <div className="d-flex flex-wrap mb-2 align-items-center justify-content-between">
           <div className="mb-3 mr-3">
             <h6 className="fs-16 text-black font-w600 mb-0">
-              568 Total Orders
+              968 Total Potholes
             </h6>
-            <span className="fs-14">Based your preferences</span>
+            <span className="fs-14">Based your location</span>
           </div>
           <div className="event-tabs mb-3 mr-3">
             <Nav as="ul" className="nav nav-tabs" role="tablist">
@@ -36,33 +36,22 @@ const Event = () => {
                 <Nav.Link
                   className="nav-link"
                   data-toggle="tab"
-                  to="#sold1"
-                  role="tab"
-                  eventKey="sold"
-                >
-                  Sold
-                </Nav.Link>
-              </Nav.Item>
-              <Nav.Item className="nav-item">
-                <Nav.Link
-                  className="nav-link"
-                  data-toggle="tab"
                   to="#refunded1"
                   role="tab"
                   eventKey="refunded"
                 >
-                  Refunded
+                  Reviewed
                 </Nav.Link>
               </Nav.Item>
-              <Nav.Item className="nav-item">
+               <Nav.Item className="nav-item">
                 <Nav.Link
                   className="nav-link"
                   data-toggle="tab"
-                  to="#canceled"
+                  to="#sold1"
                   role="tab"
-                  eventKey="canceled"
+                  eventKey="sold"
                 >
-                  Canceled
+                  Repaired
                 </Nav.Link>
               </Nav.Item>
             </Nav>
@@ -124,7 +113,7 @@ const Event = () => {
                 </Dropdown.Menu>
               </Dropdown>
             </div>
-            <Link to="/event" className="btn btn-primary text-nowrap">
+            <Link to="/potholes" className="btn btn-primary text-nowrap">
               <i className="fa fa-file-text scale5 mr-3" aria-hidden="true" />
               Generate Report
             </Link>

@@ -16,8 +16,9 @@ function Login(props) {
     const [password, setPassword] = useState('123456');
 
     const dispatch = useDispatch();
-   //setEmail('');
+    //setEmail('');
     //setPassword('123456');
+    dispatch(loginAction(email, password, props.history));
     function onLogin(e) {
         e.preventDefault();
         let error = false;
@@ -55,7 +56,7 @@ function Login(props) {
 					<div className="mt-5">
 						<Link to={"#"} className="text-white mr-4">Privacy Policy</Link>
 						<Link to={"#"} className="text-white mr-4">Contact</Link>
-						<Link to={"#"} className="text-white">© 2022 DexignZone</Link>
+						<Link to={"#"} className="text-white">© 2023 Daqian</Link>
 					</div>
 				</div>
 			</div>
@@ -67,7 +68,7 @@ function Login(props) {
 						<div className="col-xl-12">
 						  <div className="auth-form">
 							<div className=" mb-3">
-							  <h2 className="text-primary">Welcome to Acara</h2>
+							  <h2 className="text-primary">Welcome to Pothole Dashboard</h2>
 							</div>
 							<h4 className=" mb-4 ">Sign in by entering information below</h4>
                             {props.errorMessage && (

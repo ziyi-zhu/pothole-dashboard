@@ -60,7 +60,7 @@ class PieChart extends React.Component {
         },
         colors: ["#FE634E", "#707070", "#BFBFBF"],
 
-        labels: ["Ticket A", "Ticket B", "Ticket C"],
+        labels: ["Severe", "Moderate", "Mild"],
 
         legend: {
           fontSize: "14px",

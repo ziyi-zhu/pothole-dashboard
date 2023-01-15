@@ -15,7 +15,7 @@ class PolarAreaCharts extends React.Component {
             enabled: true,
           },
         },
-        labels: ["VIP", "Reguler", "Exclusive", "Economic"],
+        labels: ["Residential", "Main", "Industrial", "Motorways"],
         fill: {
           opacity: 1,
           colors: ["#707070", "#BFBFBF", "#F3F3F3", "#FE634E"],

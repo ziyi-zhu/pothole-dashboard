@@ -6,10 +6,10 @@ const Footer = () => {
       <div className="copyright">
         <p>
           Copyright © Designed &amp; Developed by{" "}
-          <a href="http://dexignzone.com/" target="_blank"  rel="noreferrer">
-            DexignZone
+          <a href="https://smartathon.hackerearth.com/challenges/hackathon/smartathon-2/dashboard/27ec977/team/" target="_blank"  rel="noreferrer">
+            Daqian
           </a>{" "}
-          2022
+          2023
         </p>
       </div>
     </div>

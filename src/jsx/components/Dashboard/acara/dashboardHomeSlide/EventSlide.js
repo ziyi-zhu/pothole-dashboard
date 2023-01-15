@@ -4,15 +4,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 // images
-import {
-  default as image05,
-  default as image07,
-} from "../../../../../images/events/1.png";
-import image08 from "../../../../../images/events/2.png";
-import {
-  default as image06,
-  default as image09,
-} from "../../../../../images/events/3.png";
+import image05 from "../../../../../images/events/1.jpg";
+import image06 from "../../../../../images/events/2.jpg";
+import image07 from "../../../../../images/events/3.jpg";
+import image08 from "../../../../../images/events/4.jpg";
+import image09 from "../../../../../images/events/5.jpg";
 
 const EventSlide = () => {
   const [asd, setAsd] = useState();
@@ -100,12 +96,12 @@ const EventSlide = () => {
               <img src={image05} alt="image05" />
               <div className="info">
                 <p className="fs-18 font-w600">
-                  <Link to="/event-detail" className="text-black">
-                    International Live Choice Festivals (2020)
+                  <Link to="/road-detail" className="text-black">
+                    Bani Malek
                   </Link>
                 </p>
                 <span className="fs-14 text-black d-block mb-3">
-                  Manchester, London
+                  Jeddah, Saudi Arabia
                 </span>
                 <p className="fs-12">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -119,11 +115,11 @@ const EventSlide = () => {
                   </li>
                   <li>
                     <i className="las la-calendar" />
-                    June 20, 2020
+                    Jan. 15, 2023
                   </li>
                   <li>
-                    <i className="fa fa-ticket" />
-                    561 pcs
+                    <i className="fa fa-wrench" />
+                    56
                   </li>
                   <li>
                     <i className="las la-clock" />
@@ -142,12 +138,12 @@ const EventSlide = () => {
               <img src={image06} alt="image06" />
               <div className="info">
                 <p className="fs-18 font-w600">
-                  <Link to="/event-detail" className="text-black">
-                    Envato Atuhor Community Fun Hiking at Sibayak Mt.
+                  <Link to="/road-detail" className="text-black">
+                    As Sulaymaniyyah
                   </Link>
                 </p>
                 <span className="fs-14 text-black d-block mb-3">
-                  London, United Kingdom
+                  Mecca, Saudi Arabia
                 </span>
                 <p className="fs-12">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -161,11 +157,11 @@ const EventSlide = () => {
                   </li>
                   <li>
                     <i className="las la-calendar" />
-                    June 20, 2020
+                    Jan. 15, 2023
                   </li>
                   <li>
-                    <i className="fa fa-ticket" />
-                    561 pcs
+                    <i className="fa fa-wrench" />
+                    56
                   </li>
                   <li>
                     <i className="las la-clock" />
@@ -184,12 +180,12 @@ const EventSlide = () => {
               <img src={image07} alt="image07" />
               <div className="info">
                 <p className="fs-18 font-w600">
-                  <Link to="/event-detail" className="text-black">
-                    International Live Choice Festivals (2020)
+                  <Link to="/road-detail" className="text-black">
+                    Ray'zakhir
                   </Link>
                 </p>
                 <span className="fs-14 text-black d-block mb-3">
-                  Manchester, London
+                  Mecca, Saudi Arabia
                 </span>
                 <p className="fs-12">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -203,11 +199,11 @@ const EventSlide = () => {
                   </li>
                   <li>
                     <i className="las la-calendar" />
-                    June 20, 2020
+                    Jan. 15, 2023
                   </li>
                   <li>
-                    <i className="fa fa-ticket" />
-                    561 pcs
+                    <i className="fa fa-wrench" />
+                    56
                   </li>
                   <li>
                     <i className="las la-clock" />
@@ -226,12 +222,12 @@ const EventSlide = () => {
               <img src={image08} alt="image08" />
               <div className="info">
                 <p className="fs-18 font-w600">
-                  <Link to="/event-detail" className="text-black">
-                    Envato Indonesian Authors Meetup 2020
+                  <Link to="/road-detail" className="text-black">
+                    Al Yarmuk
                   </Link>
                 </p>
                 <span className="fs-14 text-black d-block mb-3">
-                  Medan, Indonesia
+                  Riyadh, Saudi Arabia
                 </span>
                 <p className="fs-12">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -245,11 +241,11 @@ const EventSlide = () => {
                   </li>
                   <li>
                     <i className="las la-calendar" />
-                    June 20, 2020
+                    Jan. 15, 2023
                   </li>
                   <li>
-                    <i className="fa fa-ticket" />
-                    561 pcs
+                    <i className="fa fa-wrench" />
+                    56
                   </li>
                   <li>
                     <i className="las la-clock" />
@@ -268,12 +264,12 @@ const EventSlide = () => {
               <img src={image09} alt="image09" />
               <div className="info">
                 <p className="fs-18 font-w600">
-                  <Link to="/event-detail" className="text-black">
-                    Envato Atuhor Community Fun Hiking at Sibayak Mt.
+                  <Link to="/road-detail" className="text-black">
+                    Al-Qurayat
                   </Link>
                 </p>
                 <span className="fs-14 text-black d-block mb-3">
-                  London, United Kingdom
+                  Jeddah, Saudi Arabia
                 </span>
                 <p className="fs-12">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -287,11 +283,11 @@ const EventSlide = () => {
                   </li>
                   <li>
                     <i className="las la-calendar" />
-                    June 20, 2020
+                    Jan. 15, 2023
                   </li>
                   <li>
-                    <i className="fa fa-ticket" />
-                    561 pcs
+                    <i className="fa fa-wrench" />
+                    56
                   </li>
                   <li>
                     <i className="las la-clock" />

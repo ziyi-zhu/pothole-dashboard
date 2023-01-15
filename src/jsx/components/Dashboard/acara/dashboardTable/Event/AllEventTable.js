@@ -67,7 +67,7 @@ const AllEventTable = () => {
                            style={{ width: 63 }}
                            aria-sort="ascending"
                         >
-                           Order ID
+                           Pothole ID
                         </th>
                         <th
                            className="sorting"
@@ -89,7 +89,7 @@ const AllEventTable = () => {
                            aria-label="Event Name: activate to sort column ascending"
                            style={{ width: 156 }}
                         >
-                           Event Name
+                           Road Name
                         </th>
                         <th
                            className="sorting"
@@ -100,7 +100,7 @@ const AllEventTable = () => {
                            aria-label="Customer : activate to sort column ascending"
                            style={{ width: 75 }}
                         >
-                           Customer{" "}
+                           Reviewer{" "}
                         </th>
                         <th
                            className="sorting"
@@ -119,21 +119,10 @@ const AllEventTable = () => {
                            aria-controls="example2"
                            rowSpan={1}
                            colSpan={1}
-                           aria-label="Sold Ticket: activate to sort column ascending"
-                           style={{ width: 80 }}
-                        >
-                           Sold Ticket
-                        </th>
-                        <th
-                           className="sorting"
-                           tabIndex={0}
-                           aria-controls="example2"
-                           rowSpan={1}
-                           colSpan={1}
-                           aria-label="Available: activate to sort column ascending"
+                           aria-label="Severity: activate to sort column ascending"
                            style={{ width: 66 }}
                         >
-                           Available
+                           Severity
                         </th>
                         <th
                            className="sorting"
@@ -141,10 +130,10 @@ const AllEventTable = () => {
                            aria-controls="example2"
                            rowSpan={1}
                            colSpan={1}
-                           aria-label="Refund: activate to sort column ascending"
+                           aria-label="REPAIR: activate to sort column ascending"
                            style={{ width: 59 }}
                         >
-                           Refund
+                           Repaired
                         </th>
                         <th
                            className="sorting"
@@ -155,7 +144,7 @@ const AllEventTable = () => {
                            aria-label="Total Revenue: activate to sort column ascending"
                            style={{ width: 102 }}
                         >
-                           Total Revenue
+                           Total Cost
                         </th>
                      </tr>
                   </thead>
@@ -163,21 +152,20 @@ const AllEventTable = () => {
                      <tr role="row" className="odd">
                         <td className="sorting_1">#0012451</td>
                         <td>
-                           04/08/2020
+                           04/01/2023
                            <br />
                            12:34 AM
                         </td>
                         <td className>
                            <span className="text-nowrap">
-                              Charity Fun Games at <br /> Lapangan Merdeka
+                              Bani Malek
                            </span>
                         </td>
                         <td>Andrew Stevano</td>
-                        <td>Jakarta, Indonesia</td>
-                        <td>2 Pcs</td>
-                        <td>567k left</td>
+                        <td>Jeddah, Saudi Arabia</td>
+                        <td>Moderate</td>
                         <td>
-                           <strong className="text-primary">REFUND</strong>
+                           <strong className="text-primary">REPAIR</strong>
                         </td>
                         <td>
                            <Link to={"#"} className="btn btn-primary btn-sm light">
@@ -188,21 +176,18 @@ const AllEventTable = () => {
                      <tr role="row" className="even">
                         <td className="sorting_1">#0012451</td>
                         <td>
-                           04/08/2020
+                           04/01/2023
                            <br />
                            12:34 AM
                         </td>
                         <td className>
                            <span className="text-nowrap">
-                              Envato Authors Meetup
-                              <br />
-                              2020
+                              Bani Malek
                            </span>
                         </td>
                         <td>Elisabeth Queen</td>
-                        <td>Medan, Indonesia</td>
-                        <td>4 Pcs</td>
-                        <td>567k left</td>
+                        <td>Jeddah, Saudi Arabia</td>
+                        <td>Severe</td>
                         <td>
                            <strong className="text-black">NO</strong>
                         </td>
@@ -215,19 +200,18 @@ const AllEventTable = () => {
                      <tr role="row" className="odd">
                         <td className="sorting_1">#0012451</td>
                         <td>
-                           04/08/2020
+                           04/01/2023
                            <br />
                            12:34 AM
                         </td>
                         <td className>
                            <span className="text-nowrap">
-                              Great Big Fireworks at <br /> Newyork City
+                              As Sulaymaniyyah
                            </span>
                         </td>
                         <td>David Bekam</td>
-                        <td>Sydney, Australia</td>
-                        <td>4 Pcs</td>
-                        <td>567k left</td>
+                        <td>Mecca, Saudi Arabia</td>
+                        <td>Severe</td>
                         <td>
                            <strong className="text-black">NO</strong>
                         </td>
@@ -240,19 +224,18 @@ const AllEventTable = () => {
                      <tr role="row" className="even">
                         <td className="sorting_1">#0012451</td>
                         <td>
-                           04/08/2020
+                           04/01/2023
                            <br />
                            12:34 AM
                         </td>
                         <td className>
                            <span className="text-nowrap">
-                              Indonesian Envato <br /> Authors Fun Run{" "}
+                              As Sulaymaniyyah
                            </span>
                         </td>
                         <td>Cive Slauw</td>
-                        <td>Penang, Malaysia</td>
-                        <td>4 Pcs</td>
-                        <td>567k left</td>
+                        <td>Mecca, Saudi Arabia</td>
+                        <td>Severe</td>
                         <td>
                            <strong className="text-black">NO</strong>
                         </td>
@@ -265,20 +248,18 @@ const AllEventTable = () => {
                      <tr role="row" className="odd">
                         <td className="sorting_1">#0012451</td>
                         <td>
-                           04/08/2020
+                           04/01/2023
                            <br />
                            12:34 AM
                         </td>
                         <td className>
                            <span className="text-nowrap">
-                              The Story of Danau Toba
-                              <br /> (Musical Drama)
+                              As Sulaymaniyyah
                            </span>
                         </td>
                         <td>Bella Simatupang</td>
-                        <td>London, US</td>
-                        <td>1 Pcs</td>
-                        <td>567k left</td>
+                        <td>Mecca, Saudi Arabia</td>
+                        <td>Mild</td>
                         <td>
                            <strong className="text-black">NO</strong>
                         </td>
@@ -291,20 +272,18 @@ const AllEventTable = () => {
                      <tr role="row" className="even">
                         <td className="sorting_1">#0012451</td>
                         <td>
-                           04/08/2020
+                           04/01/2023
                            <br />
                            12:34 AM
                         </td>
                         <td className>
                            <span className="text-nowrap">
-                              The Story of Danau Toba
-                              <br /> (Musical Drama)
+                              Ray'zakhir
                            </span>
                         </td>
                         <td>Eddy Cusuma</td>
-                        <td>Medan, Indonesia</td>
-                        <td>3 Pcs</td>
-                        <td>567k left</td>
+                        <td>Mecca, Saudi Arabia</td>
+                        <td>Moderate</td>
                         <td>
                            <strong className="text-black">NO</strong>
                         </td>
@@ -317,22 +296,20 @@ const AllEventTable = () => {
                      <tr role="row" className="odd">
                         <td className="sorting_1">#0012451</td>
                         <td>
-                           04/08/2020
+                           04/01/2023
                            <br />
                            12:34 AM
                         </td>
                         <td className>
                            <span className="text-nowrap">
-                              The Story of Danau Toba
-                              <br /> (Musical Drama)
+                              Ray'zakhir
                            </span>
                         </td>
                         <td>Frank Azire</td>
-                        <td>Bangkok, Thailand</td>
-                        <td>1 Pcs</td>
-                        <td>567k left</td>
+                        <td>Mecca, Saudi Arabia</td>
+                        <td>Mild</td>
                         <td>
-                           <strong className="text-black">REFUND</strong>
+                           <strong className="text-black">REPAIR</strong>
                         </td>
                         <td>
                            <Link to={"#"} className="btn btn-primary btn-sm light">
@@ -343,20 +320,18 @@ const AllEventTable = () => {
                      <tr role="row" className="even">
                         <td className="sorting_1">#0012451</td>
                         <td>
-                           04/08/2020
+                           04/01/2023
                            <br />
                            12:34 AM
                         </td>
                         <td className>
                            <span className="text-nowrap">
-                              The Story of Danau Toba
-                              <br /> (Musical Drama)
+                              Al Yarmuk
                            </span>
                         </td>
                         <td>Bella Simatupang</td>
-                        <td>London, US</td>
-                        <td>1 Pcs</td>
-                        <td>567k left</td>
+                        <td>Riyadh, Saudi Arabia</td>
+                        <td>Mild</td>
                         <td>
                            <strong className="text-black">NO</strong>
                         </td>
@@ -369,20 +344,18 @@ const AllEventTable = () => {
                      <tr role="row" className="odd">
                         <td className="sorting_1">#0012451</td>
                         <td>
-                           04/08/2020
+                           04/01/2023
                            <br />
                            12:34 AM
                         </td>
                         <td className>
                            <span className="text-nowrap">
-                              The Story of Danau Toba
-                              <br /> (Musical Drama)
+                              Al-Qurayat
                            </span>
                         </td>
                         <td>Elisabeth Queen</td>
-                        <td>London, US</td>
-                        <td>1 Pcs</td>
-                        <td>567k left</td>
+                        <td>Jeddah, Saudi Arabia</td>
+                        <td>Mild</td>
                         <td>
                            <strong className="text-black">NO</strong>
                         </td>
@@ -395,20 +368,18 @@ const AllEventTable = () => {
                      <tr role="row" className="even">
                         <td className="sorting_1">#0012451</td>
                         <td>
-                           04/08/2020
+                           04/01/2023
                            <br />
                            12:34 AM
                         </td>
                         <td className>
                            <span className="text-nowrap">
-                              The Story of Danau Toba
-                              <br /> (Musical Drama)
+                              Al-Qurayat
                            </span>
                         </td>
                         <td>Andrew Stevano</td>
-                        <td>London, US</td>
-                        <td>1 Pcs</td>
-                        <td>567k left</td>
+                        <td>Jeddah, Saudi Arabia</td>
+                        <td>Mild</td>
                         <td>
                            <strong className="text-black">NO</strong>
                         </td>
@@ -422,20 +393,18 @@ const AllEventTable = () => {
                      <tr role="row" className="odd">
                         <td className="sorting_1">#0012451</td>
                         <td>
-                           04/08/2020
+                           04/01/2023
                            <br />
                            12:34 AM
                         </td>
                         <td className>
                            <span className="text-nowrap">
-                              The Story of Danau Toba
-                              <br /> (Musical Drama)
+                              Al-Qurayat
                            </span>
                         </td>
                         <td>Andrew Stevano</td>
-                        <td>London, US</td>
-                        <td>1 Pcs</td>
-                        <td>567k left</td>
+                        <td>Jeddah, Saudi Arabia</td>
+                        <td>Mild</td>
                         <td>
                            <strong className="text-black">NO</strong>
                         </td>
@@ -449,20 +418,18 @@ const AllEventTable = () => {
                      <tr role="row" className="even">
                         <td className="sorting_1">#0012451</td>
                         <td>
-                           04/08/2020
+                           04/01/2023
                            <br />
                            12:34 AM
                         </td>
                         <td className>
                            <span className="text-nowrap">
-                              The Story of Danau Toba
-                              <br /> (Musical Drama)
+                              Al-Qurayat
                            </span>
                         </td>
                         <td>Andrew Stevano</td>
-                        <td>London, US</td>
-                        <td>1 Pcs</td>
-                        <td>567k left</td>
+                        <td>Jeddah, Saudi Arabia</td>
+                        <td>Mild</td>
                         <td>
                            <strong className="text-black">NO</strong>
                         </td>
@@ -476,20 +443,18 @@ const AllEventTable = () => {
                      <tr role="row" className="odd">
                         <td className="sorting_1">#0012451</td>
                         <td>
-                           04/08/2020
+                           04/01/2023
                            <br />
                            12:34 AM
                         </td>
                         <td className>
                            <span className="text-nowrap">
-                              The Story of Danau Toba
-                              <br /> (Musical Drama)
+                              Al-Qurayat
                            </span>
                         </td>
                         <td>Andrew Stevano</td>
-                        <td>London, US</td>
-                        <td>1 Pcs</td>
-                        <td>567k left</td>
+                        <td>Jeddah, Saudi Arabia</td>
+                        <td>Mild</td>
                         <td>
                            <strong className="text-black">NO</strong>
                         </td>
@@ -503,20 +468,18 @@ const AllEventTable = () => {
                      <tr role="row" className="even">
                         <td className="sorting_1">#0012451</td>
                         <td>
-                           04/08/2020
+                           04/01/2023
                            <br />
                            12:34 AM
                         </td>
                         <td className>
                            <span className="text-nowrap">
-                              The Story of Danau Toba
-                              <br /> (Musical Drama)
+                              Al-Qurayat
                            </span>
                         </td>
                         <td>Andrew Stevano</td>
-                        <td>London, US</td>
-                        <td>1 Pcs</td>
-                        <td>567k left</td>
+                        <td>Jeddah, Saudi Arabia</td>
+                        <td>Mild</td>
                         <td>
                            <strong className="text-black">NO</strong>
                         </td>
@@ -543,7 +506,7 @@ const AllEventTable = () => {
                   >
                      <Link
                         className="paginate_button previous disabled"
-                        to="/event"
+                        to="/potholes"
                         onClick={() =>
                            activePag.current > 0 &&
                            onClick(activePag.current - 1)
@@ -555,7 +518,7 @@ const AllEventTable = () => {
                         {paggination.map((number, i) => (
                            <Link
                               key={i}
-                              to="/event"
+                              to="/potholes"
                               className={`paginate_button  ${
                                  activePag.current === i ? "current" : ""
                               } `}
@@ -568,7 +531,7 @@ const AllEventTable = () => {
 
                      <Link
                         className="paginate_button next"
-                        to="/event"
+                        to="/potholes"
                         onClick={() =>
                            activePag.current + 1 < paggination.length &&
                            onClick(activePag.current + 1)
