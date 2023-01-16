@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pothole-dashboard/static/css/main.f5b30f6e.css",
-    "main.js": "/pothole-dashboard/static/js/main.f2ada4c5.js",
+    "main.js": "/pothole-dashboard/static/js/main.204c2d29.js",
     "static/js/405.1a33fcb1.chunk.js": "/pothole-dashboard/static/js/405.1a33fcb1.chunk.js",
     "static/js/607.63394e3e.chunk.js": "/pothole-dashboard/static/js/607.63394e3e.chunk.js",
     "static/js/594.3d154d27.chunk.js": "/pothole-dashboard/static/js/594.3d154d27.chunk.js",
@@ -95,7 +95,7 @@
     "static/media/slick.woff": "/pothole-dashboard/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/pothole-dashboard/index.html",
     "main.f5b30f6e.css.map": "/pothole-dashboard/static/css/main.f5b30f6e.css.map",
-    "main.f2ada4c5.js.map": "/pothole-dashboard/static/js/main.f2ada4c5.js.map",
+    "main.204c2d29.js.map": "/pothole-dashboard/static/js/main.204c2d29.js.map",
     "405.1a33fcb1.chunk.js.map": "/pothole-dashboard/static/js/405.1a33fcb1.chunk.js.map",
     "607.63394e3e.chunk.js.map": "/pothole-dashboard/static/js/607.63394e3e.chunk.js.map",
     "594.3d154d27.chunk.js.map": "/pothole-dashboard/static/js/594.3d154d27.chunk.js.map",
@@ -113,6 +113,6 @@
   },
   "entrypoints": [
     "static/css/main.f5b30f6e.css",
-    "static/js/main.f2ada4c5.js"
+    "static/js/main.204c2d29.js"
   ]
 }

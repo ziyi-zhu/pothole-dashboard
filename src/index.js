@@ -14,7 +14,7 @@ ReactDOM.render(
     <React.StrictMode>
         <Provider store = {store}>
             <SimpleReactLightbox>
-                <BrowserRouter basename='/react/demo'>
+                <BrowserRouter basename='/pothole-dashboard'>
                     <ThemeContext>
                         <App />
                     </ThemeContext>
