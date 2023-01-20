@@ -6,7 +6,7 @@ class SalesChart extends React.Component {
     super(props);
 
     this.state = {
-      series: [46],
+      series: [89.1],
       options: {
         chart: {
           height: 250,

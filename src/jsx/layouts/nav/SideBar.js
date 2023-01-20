@@ -54,7 +54,7 @@ class SideBar extends Component {
         "road",
         "customers",
         "analytics",
-        "road-detail",
+        "scene-detail",
         "reviews",
         "task",
       ],
@@ -236,16 +236,10 @@ class SideBar extends Component {
 						</Link>
 					</li>
 					<li>
-						<Link className={`${path === "road-detail" ? "mm-active" : ""}`} onClick={() => this.props.onClick()} to="/road-detail" >
-							 Road Detail
+						<Link className={`${path === "scene-detail" ? "mm-active" : ""}`} onClick={() => this.props.onClick()} to="/scene-detail" >
+							 Scene Detail
 						</Link>
 					</li>
-					<li>
-					  <Link className={`${ path === "analytics" ? "mm-active" : "" }`} onClick={() => this.props.onClick()} to="/analytics"
-					  >
-							Analytics
-					  </Link>
-					</li>				
 				</ul>
             </li>
           </MM>

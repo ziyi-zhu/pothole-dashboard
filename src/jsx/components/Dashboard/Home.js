@@ -6,10 +6,10 @@ import { Dropdown, Nav, Tab } from "react-bootstrap";
 import PerfectScrollbar from "react-perfect-scrollbar";
 import { Link } from "react-router-dom";
 // images
-import image01 from "../../../images/profile/20.jpg";
-import image02 from "../../../images/profile/21.jpg";
-import image03 from "../../../images/profile/22.jpg";
-import image04 from "../../../images/profile/23.jpg";
+import image01 from "../../../images/hole/1.png";
+import image02 from "../../../images/hole/2.png";
+import image03 from "../../../images/hole/3.png";
+import image04 from "../../../images/hole/3.png";
 import Donut from "./acara/dashboardChart/Donut";
 import Increase from "./acara/dashboardChart/Increase";
 // Home Charts
@@ -122,7 +122,7 @@ const Home = () => {
                     >
                       <rect width={20} height={8} rx={4} fill="#45ADDA" />
                     </svg>
-                    <h4 className="fs-18 text-black mb-1 font-w600">21,512</h4>
+                    <h4 className="fs-18 text-black mb-1 font-w600">522</h4>
                     <span className="fs-14">Mild</span>
                   </div>
                   <div className="pr-2">
@@ -135,7 +135,7 @@ const Home = () => {
                     >
                       <rect width={20} height={8} rx={4} fill="#214BB8" />
                     </svg>
-                    <h4 className="fs-18 text-black mb-1 font-w600">45,612</h4>
+                    <h4 className="fs-18 text-black mb-1 font-w600">939</h4>
                     <span className="fs-14">Moderate</span>
                   </div>
                   <div className>
@@ -148,7 +148,7 @@ const Home = () => {
                     >
                       <rect width={20} height={8} rx={4} fill="#FE634E" />
                     </svg>
-                    <h4 className="fs-18 text-black mb-1 font-w600">275</h4>
+                    <h4 className="fs-18 text-black mb-1 font-w600">230</h4>
                     <span className="fs-14">Severe</span>
                   </div>
                 </div>
@@ -158,7 +158,7 @@ const Home = () => {
           <div className="col-xl-12 col-md-6">
             <div className="card">
               <div className="card-header border-0 pb-0">
-                <h4 className="fs-20">Latest Reviews</h4>
+                <h4 className="fs-20">Latest Potholes</h4>
                 <div className="dropdown bootstrap-select form-control style-1 default-select">
                   <Dropdown>
                     <Dropdown.Toggle
@@ -239,7 +239,7 @@ const Home = () => {
                 <div className="pb-3 mb-3 border-bottom">
                   <p className="font-w600">
                     <Link to="/event" className="text-black">
-                      The Story’s of Danau Toba (Drama Theater)
+                      Pothole #1191
                     </Link>
                   </p>
                   <div className="d-flex align-items-end">
@@ -251,21 +251,21 @@ const Home = () => {
                     />
                     <div className="mr-auto">
                       <h4 className="fs-14 mb-0">
-                        <Link to="./app-profile" className="text-black">
-                          Steffany Humble
+                        <Link to="./scene-detail" className="text-black">
+                          Scene 1
                         </Link>
                       </h4>
                       <span className="fs-12">2m ago</span>
                     </div>
                     <span className="badge badge-sm light badge-primary">
-                      4 Ticket
+                      Severe
                     </span>
                   </div>
                 </div>
                 <div className="pb-3 mb-3 border-bottom">
                   <p className="font-w600">
                     <Link to="/event" className="text-black">
-                      Envato Author SF Meetup
+                      Pothole #1190
                     </Link>
                   </p>
                   <div className="d-flex align-items-end">
@@ -277,21 +277,21 @@ const Home = () => {
                     />
                     <div className="mr-auto">
                       <h4 className="fs-14 mb-0">
-                        <Link to={"./app-profile"} className="text-black">
-                          Jacob Swing Swing
+                        <Link to={"./scene-detail"} className="text-black">
+                          Scene 1
                         </Link>
                       </h4>
                       <span className="fs-12">6h ago</span>
                     </div>
                     <span className="badge badge-sm light badge-primary">
-                      2 Ticket
+                      Mild
                     </span>
                   </div>
                 </div>
                 <div className="pb-3 mb-3 border-bottom">
                   <p className="font-w600">
                     <Link to="/event" className="text-black">
-                      Envato Atuhor Community Fun Hiking at Sibayak Mountaint
+                      Pothole #1189
                     </Link>
                   </p>
                   <div className="d-flex align-items-end">
@@ -303,21 +303,21 @@ const Home = () => {
                     />
                     <div className="mr-auto">
                       <h4 className="fs-14 mb-0">
-                        <Link to={"./app-profile"} className="text-black">
-                          Robert Carloz
+                        <Link to={"./scene-detail"} className="text-black">
+                          Scene 1
                         </Link>
                       </h4>
                       <span className="fs-12">10h ago</span>
                     </div>
                     <span className="badge badge-sm light badge-primary">
-                      1 Ticket
+                      Moderate
                     </span>
                   </div>
                 </div>
                 <div className="pb-3 mb-3 border-bottom">
                   <p className="font-w600">
                     <Link to="/event" className="text-black">
-                      Indonesia Envato Authors National Meetup
+                      Pothole #1188
                     </Link>
                   </p>
                   <div className="d-flex align-items-end">
@@ -329,21 +329,21 @@ const Home = () => {
                     />
                     <div className="mr-auto">
                       <h4 className="fs-14 mb-0">
-                        <Link to={"./app-profile"} className="text-black">
-                          Kevin Stefanus
+                        <Link to={"./scene-detail"} className="text-black">
+                          Scene 1
                         </Link>
                       </h4>
                       <span className="fs-12">2m ago</span>
                     </div>
                     <span className="badge badge-sm light badge-primary">
-                      1 Ticket
+                      Moderate
                     </span>
                   </div>
                 </div>
                 <div className="pb-3 mb-3 border-bottom">
                   <p className="font-w600">
                     <Link to="/event" className="text-black">
-                      Envato Author SF Meetup
+                      Pothole #1187
                     </Link>
                   </p>
                   <div className="d-flex align-items-end">
@@ -355,14 +355,14 @@ const Home = () => {
                     />
                     <div className="mr-auto">
                       <h4 className="fs-14 mb-0">
-                        <Link to={"./app-profile"} className="text-black">
-                          Jacob Swing Swing
+                        <Link to={"./scene-detail"} className="text-black">
+                          Scene 1
                         </Link>
                       </h4>
                       <span className="fs-12">6h ago</span>
                     </div>
                     <span className="badge badge-sm light badge-primary">
-                      2 Ticket
+                      Mild
                     </span>
                   </div>
                 </div>
@@ -371,7 +371,7 @@ const Home = () => {
                 <Link
                   className="btn btn-primary btn-sm dz-load-more"
                   id="latestSales"
-                  to=""
+                  to="/potholes"
                   rel="ajax/latest-sales.html"
                 >
                   View More
@@ -383,14 +383,14 @@ const Home = () => {
       </div>
       <div className="col-xl-9 col-xxl-8">
         <div className="row">
-          <div className="col-xl-4 col-xxl-6 col-lg-4 col-sm-6">
+          <div className="col-xl-6 col-xxl-6 col-lg-6 col-sm-6">
             <div className="card">
               <div className="card-body">
                 <div className="d-flex align-items-end">
                   <div>
-                    <p className="fs-14 mb-1">New Potholes</p>
+                    <p className="fs-14 mb-1">Total Potholes</p>
                     <span className="fs-35 text-black font-w600">
-                      1293
+                      1,691
                       <svg
                         className="ml-1"
                         width={19}
@@ -412,14 +412,14 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="col-xl-4 col-xxl-6 col-lg-4 col-sm-6">
+          <div className="col-xl-6 col-xxl-6 col-lg-6 col-sm-6">
             <div className="card">
               <div className="card-body">
                 <div className="d-flex justify-content-between align-items-center">
                   <div>
-                    <p className="fs-14 mb-1">Repaired</p>
+                    <p className="fs-14 mb-1">Average Score</p>
                     <span className="fs-35 text-black font-w600">
-                      856
+                      52.4
                       <svg
                         className="ml-1"
                         width={19}
@@ -437,158 +437,18 @@ const Home = () => {
                   </div>
                   <div className="d-inline-block ml-auto position-relative donut-chart-sale">
                     {/* Donut */}
-                    <Donut value={75} backgroundColor2="#f4f4f4"/>
+                    <Donut value={52.4} backgroundColor2="#f4f4f4"/>
 
-                    <small className="text-secondary">90%</small>
+                    <small className="text-secondary">52.4%</small>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col-xl-4 col-xxl-12 col-lg-4">
-            <div className="card">
-              <div className="card-header align-items-start pb-0 border-0">
-                <div>
-                  <h4 className="fs-16 mb-0 text-black font-w600">
-                    Increase 25%
-                  </h4>
-                  <span className="fs-12">Comparisson</span>
-                </div>
-                <div className="dropdown bootstrap-select form-control style-1 default-select">
-                  <Dropdown>
-                    <Dropdown.Toggle
-                      variant=""
-                      id="dropdown-basic"
-                      className="default-select style-1 btn filter-option"
-                      style={{
-                        fontSize: "12px",
-                        fontWeight: "400",
-                      }}
-                    >
-                      {refreshToggle ? refreshToggle : "Daily"}
-                    </Dropdown.Toggle>
-
-                    <Dropdown.Menu
-                      className="dropdown-menu inner show"
-                      style={{ borderRadius: "10px" }}
-                    >
-                      <Dropdown.Item
-                        className="dropdown-item"
-                        href="#"
-                        onClick={() => setRefreshToggle("Daily")}
-                        style={{
-                          fontSize: "12px",
-                          fontWeight: "400",
-                          margin: "0 auto",
-                          paddingTop: "15px",
-                        }}
-                      >
-                        Daily
-                      </Dropdown.Item>
-                      <Dropdown.Item
-                        className="dropdown-item"
-                        href="#"
-                        onClick={() => setRefreshToggle("Monthly")}
-                        style={{
-                          fontSize: "12px",
-                          fontWeight: "400",
-                          margin: "0 auto",
-                        }}
-                      >
-                        Monthly
-                      </Dropdown.Item>
-                      <Dropdown.Item
-                        className="dropdown-item"
-                        href="#"
-                        onClick={() => setRefreshToggle("Weekly")}
-                        style={{
-                          fontSize: "12px",
-                          fontWeight: "400",
-                          margin: "0 auto",
-                        }}
-                      >
-                        Weekly
-                      </Dropdown.Item>
-                    </Dropdown.Menu>
-                  </Dropdown>
-                </div>
-              </div>
-              <div className="card-body pt-0">
-                <Increase />
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-12">
-            <Tab.Container defaultActiveKey="monthly">
-              <div className="card" id="sales-revenue">
-                <div className="card-header pb-0 d-block d-sm-flex border-0">
-                  <h3 className="fs-20 text-black mb-0">Total Cost</h3>
-                  <div className="card-action revenue-tabs mt-3 mt-sm-0">
-                    <Nav as="ul" className="nav nav-tabs" role="tablist">
-                      <Nav.Item className="nav-item">
-                        <Nav.Link
-                          className="nav-link"
-                          data-toggle="tab"
-                          to="#monthly"
-                          role="tabpanel"
-                          eventKey="monthly"
-                        >
-                          Monthly
-                        </Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item className="nav-item">
-                        <Nav.Link
-                          className="nav-link"
-                          data-toggle="tab"
-                          to="#weekly1"
-                          role="tabpanel"
-                          eventKey="weekly"
-                        >
-                          Weekly
-                        </Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item className="nav-item">
-                        <Nav.Link
-                          className="nav-link"
-                          data-toggle="tab"
-                          to="#today1"
-                          role="tabpanel"
-                          eventKey="today"
-                        >
-                          Today
-                        </Nav.Link>
-                      </Nav.Item>
-                    </Nav>
-                  </div>
-                </div>
-                <Tab.Content>
-                  <div className="card-body">
-                    <div className="tab-content">
-                      <Tab.Pane eventKey="monthly">
-                        <div className="tab-pane fade show" role="tabpanel">
-                          <SalesRevenue />
-                        </div>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="weekly">
-                        <div className="tab-pane fade show" role="tabpanel">
-                          <SalesRevenue2 />
-                        </div>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="today">
-                        <div className="tab-pane fade show" role="tabpanel">
-                          <SalesRevenue3 />
-                        </div>
-                      </Tab.Pane>
-                    </div>
-                  </div>
-                </Tab.Content>
-              </div>
-            </Tab.Container>
           </div>
           <div className="col-xl-12">
             <div className="card">
               <div className="card-header border-0 pb-sm-0 pb-5">
-                <h4 className="fs-20">Recent Potholes</h4>
+                <h4 className="fs-20">Recent Scenes</h4>
                 <div className="dropdown custom-dropdown mb-0">
                   <Dropdown className="dropdown">
                     <Dropdown.Toggle

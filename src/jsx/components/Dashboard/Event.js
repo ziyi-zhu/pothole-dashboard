@@ -15,9 +15,9 @@ const Event = () => {
         <div className="d-flex flex-wrap mb-2 align-items-center justify-content-between">
           <div className="mb-3 mr-3">
             <h6 className="fs-16 text-black font-w600 mb-0">
-              968 Total Potholes
+              1,691 Total Potholes
             </h6>
-            <span className="fs-14">Based your location</span>
+            <span className="fs-14">From 2 scenes</span>
           </div>
           <div className="event-tabs mb-3 mr-3">
             <Nav as="ul" className="nav nav-tabs" role="tablist">
@@ -40,7 +40,7 @@ const Event = () => {
                   role="tab"
                   eventKey="refunded"
                 >
-                  Reviewed
+                  Mild
                 </Nav.Link>
               </Nav.Item>
                <Nav.Item className="nav-item">
@@ -51,7 +51,18 @@ const Event = () => {
                   role="tab"
                   eventKey="sold"
                 >
-                  Repaired
+                  Moderate
+                </Nav.Link>
+              </Nav.Item>
+              <Nav.Item className="nav-item">
+                <Nav.Link
+                  className="nav-link"
+                  data-toggle="tab"
+                  to="#sold1"
+                  role="tab"
+                  eventKey="canceled"
+                >
+                  Severe
                 </Nav.Link>
               </Nav.Item>
             </Nav>

@@ -6,7 +6,7 @@ class OrderSummaryChart extends React.Component {
     super(props);
 
     this.state = {
-      series: [55, 30, 15],
+      series: [56, 30, 14],
       options: {
         chart: {
           type: "donut",

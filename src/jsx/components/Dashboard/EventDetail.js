@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Dropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 // images
-import image001 from "../../../images/road.jpg";
+import image001 from "../../../images/events/3.gif";
 import Donut from "./acara/dashboardChart/Donut";
 import Donut2 from "./acara/dashboardChart/Donut2";
 import Increase from "./acara/dashboardChart/Increase";
@@ -58,20 +58,20 @@ const EventDetail = () => {
                 <div className="card-body">
                   <div className="d-flex flex-wrap align-items-center mb-4">
                     <h2 className="text-black col-xl-6 p-0 col-xxl-12 mr-auto title mb-3">
-                      Abd Al Rahman Al Naser
+                      Scene 1
                     </h2>
                     <div className="d-flex align-items-center">
                       <Link
-                        to="/road-detail"
+                        to="/scene-detail"
                         className="btn btn-primary light mr-3"
                       >
                         <i
                           className="fa fa-wrench mr-3 scale5"
                           aria-hidden="true"
                         ></i>
-                        Repairs Activity
+                        Repairs
                       </Link>
-                      <Link to="/road-detail" className="share-icon mr-3">
+                      <Link to="/scene-detail" className="share-icon mr-3">
                         <svg
                           width="24"
                           height="24"
@@ -143,24 +143,19 @@ const EventDetail = () => {
                   <div className="row">
                     <div className="col-lg-3 col-md-6 col-xxl-6 mb-3">
                       <div className="media bg-light p-3 rounded align-items-center">
-                        <svg
-                          className="mr-2"
-                          width="25"
-                          height="25"
-                          viewBox="0 0 25 25"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M6.07438 25H7.95454V22.6464C11.8595 22.302 14 19.6039 14 16.8197C14 12.7727 10.8471 11.9977 7.95454 11.3088V5.10907C9.34297 5.4535 10.1529 6.5155 10.2686 7.66361H13.7975C13.5372 4.42021 11.281 2.61194 7.95454 2.32492V0H6.07438V2.35362C2.4876 2.66935 0 4.87945 0 8.09415C0 12.1412 3.18182 12.9449 6.07438 13.6625V19.977C4.45455 19.69 3.64463 18.628 3.52893 17.1929H0C0 20.4363 2.54545 22.3594 6.07438 22.6751V25ZM10.6736 16.992C10.6736 18.4845 9.69008 19.69 7.95454 19.977V14.1504C9.51653 14.6383 10.6736 15.3559 10.6736 16.992ZM3.35537 7.92193C3.35537 6.17107 4.48347 5.22388 6.07438 5.02296V10.8209C4.5124 10.333 3.35537 9.58668 3.35537 7.92193Z"
-                            fill="#FE634E"
-                          ></path>
-                        </svg>
+                          <svg className="mr-4"
+                            width="25"
+                            height="25"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 576 512"
+                          >
+                            <path fill="#FE634E" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>
+                          </svg>
                         <div className="media-body">
                           <span className="fs-12 d-block mb-1">
-                            Estimated Cost
+                            Average Score
                           </span>
-                          <span className="fs-16 text-black">$124,000</span>
+                          <span className="fs-16 text-black">51.6</span>
                         </div>
                       </div>
                     </div>
@@ -294,85 +289,105 @@ const EventDetail = () => {
                       <thead>
                         <tr>
                           <th>
-                            <strong>Pothole ID</strong>
+                            <strong>Segment ID</strong>
                           </th>
                           <th>
                             <strong>Date</strong>
                           </th>
                           <th>
-                            <strong>Reviewer</strong>
-                          </th>
-                          <th>
                             <strong>Location</strong>
                           </th>
                           <th>
-                            <strong>Severity</strong>
+                            <strong>Segment Score</strong>
                           </th>
                           <th>
-                            <strong>Repaired</strong>
+                            <strong>High Score Frame ID</strong>
+                          </th>
+                          <th>
+                            <strong>High Score</strong>
                           </th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>#0012451</td>
-                          <td>04/01/2023 12:34 AM</td>
-                          <td>Elisabeth Queen</td>
+                          <td>#01</td>
+                          <td>20/01/2023 12:34 AM</td>
                           <td>Riyadh, Saudi Arabia</td>
-                          <td>Moderate</td>
-                          <td>
-                            <strong>NO</strong>
-                          </td>
+                          <td>59.991</td>
+                          <td>10</td>
+                          <td>25.198</td>
                         </tr>
                         <tr>
-                          <td>#0012451</td>
-                          <td>04/01/2023 12:34 AM</td>
-                          <td>Elisabeth Queen</td>
+                          <td>#02</td>
+                          <td>20/01/2023 12:34 AM</td>
                           <td>Riyadh, Saudi Arabia</td>
-                          <td>Moderate</td>
-                          <td>
-                            <strong>NO</strong>
-                          </td>
+                          <td>40.164</td>
+                          <td>35</td>
+                          <td>13.312</td>
                         </tr>
                         <tr>
-                          <td>#0012451</td>
-                          <td>04/01/2023 12:34 AM</td>
-                          <td>Elisabeth Queen</td>
+                          <td>#03</td>
+                          <td>20/01/2023 12:34 AM</td>
                           <td>Riyadh, Saudi Arabia</td>
-                          <td>Moderate</td>
-                          <td>
-                            <strong>NO</strong>
-                          </td>
+                          <td>31.680</td>
+                          <td>80</td>
+                          <td>18.289</td>
                         </tr>
                         <tr>
-                          <td>#0012451</td>
-                          <td>04/01/2023 12:34 AM</td>
-                          <td>Elisabeth Queen</td>
+                          <td>#04</td>
+                          <td>20/01/2023 12:34 AM</td>
                           <td>Riyadh, Saudi Arabia</td>
-                          <td>Moderate</td>
-                          <td>
-                            <strong>NO</strong>
-                          </td>
+                          <td>46.513</td>
+                          <td>106</td>
+                          <td>12.107</td>
                         </tr>
                         <tr>
-                          <td>#0012451</td>
-                          <td>04/01/2023 12:34 AM</td>
-                          <td>Elisabeth Queen</td>
+                          <td>#05</td>
+                          <td>20/01/2023 12:34 AM</td>
                           <td>Riyadh, Saudi Arabia</td>
-                          <td>Moderate</td>
-                          <td>
-                            <strong>NO</strong>
-                          </td>
+                          <td>29.048</td>
+                          <td>169</td>
+                          <td>12.541</td>
                         </tr>
                         <tr>
-                          <td>#0012451</td>
-                          <td>04/01/2023 12:34 AM</td>
-                          <td>Elisabeth Queen</td>
+                          <td>#06</td>
+                          <td>20/01/2023 12:34 AM</td>
                           <td>Riyadh, Saudi Arabia</td>
-                          <td>Moderate</td>
-                          <td>
-                            <strong>NO</strong>
-                          </td>
+                          <td>53.146</td>
+                          <td>211</td>
+                          <td>13.788</td>
+                        </tr>
+                        <tr>
+                          <td>#07</td>
+                          <td>20/01/2023 12:34 AM</td>
+                          <td>Riyadh, Saudi Arabia</td>
+                          <td>85.501</td>
+                          <td>222</td>
+                          <td>15.660</td>
+                        </tr>
+                        <tr>
+                          <td>#08</td>
+                          <td>20/01/2023 12:34 AM</td>
+                          <td>Riyadh, Saudi Arabia</td>
+                          <td>45.500</td>
+                          <td>277</td>
+                          <td>19.772</td>
+                        </tr>
+                        <tr>
+                          <td>#09</td>
+                          <td>20/01/2023 12:34 AM</td>
+                          <td>Riyadh, Saudi Arabia</td>
+                          <td>71.115</td>
+                          <td>320</td>
+                          <td>16.867</td>
+                        </tr>
+                        <tr>
+                          <td>#10</td>
+                          <td>20/01/2023 12:34 AM</td>
+                          <td>Riyadh, Saudi Arabia</td>
+                          <td>57.046</td>
+                          <td>328</td>
+                          <td>22.624</td>
                         </tr>
                       </tbody>
                     </table>
@@ -387,23 +402,23 @@ const EventDetail = () => {
             <div className="col-xl-12 col-sm-6">
               <div className="card">
                 <div className="card-header border-0 pb-0">
-                  <h4 className="fs-20 text-black">Road Summary</h4>
+                  <h4 className="fs-20 text-black">Scene Summary</h4>
                 </div>
                 <div className="card-body pt-3">
                   <div className="d-flex justify-content-between align-items-center">
-                    <span className="fs-14">Tuesday</span>
-                    <span className="text-black fs-18 font-w500">215 potholes</span>
+                    <span className="fs-14">Non-Severe Potholes</span>
+                    <span className="text-black fs-18 font-w500">1,059</span>
                   </div>
                   {/* <div id="radialBar"></div> */}
                   <SalesChart />
                   <div className="d-flex justify-content-between align-items-center">
                     <div>
-                      <p className="fs-28 text-black font-w600 mb-1">25 Left</p>
-                      <span>Pending Repairs</span>
+                      <p className="fs-28 text-black font-w600 mb-1">132</p>
+                      <span>Severe Potholes</span>
                     </div>
                     <div className="d-inline-block ml-auto position-relative donut-chart-sale">
-                      <Donut2 value={65} backgroundColor2="#f4f4f4"/>
-                      <small className="text-primary">65%</small>
+                      <Donut2 value={10.9} backgroundColor2="#f4f4f4"/>
+                      <small className="text-primary">10.9%</small>
                     </div>
                   </div>
                 </div>
@@ -424,9 +439,9 @@ const EventDetail = () => {
                           </div>
                         </div>
                         <div>
-                          <p className="fs-14 mb-1">New Potholes</p>
+                          <p className="fs-14 mb-1">Total Potholes</p>
                           <span className="fs-35 text-black font-w600">
-                            93
+                            1,191
                             <svg
                               className="ml-2"
                               width="19"
@@ -452,9 +467,9 @@ const EventDetail = () => {
                     <div className="card-body">
                       <div className="d-flex justify-content-between align-items-center">
                         <div>
-                          <p className="fs-14 mb-1">Repaired</p>
+                          <p className="fs-14 mb-1">Average Score</p>
                           <span className="fs-35 text-black font-w600">
-                            56
+                            51.6
                             <svg
                               className="ml-2"
                               width="19"
@@ -471,91 +486,10 @@ const EventDetail = () => {
                           </span>
                         </div>
                         <div className="d-inline-block ml-auto position-relative donut-chart-sale">
-                          <Donut value={75}  backgroundColor2="#f4f4f4" />
-                          <small className="text-secondary">90%</small>
+                          <Donut value={51.6}  backgroundColor2="#f4f4f4" />
+                          <small className="text-secondary">51.6%</small>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-xl-12">
-                  <div className="card">
-                    <div className="card-header align-items-start pb-0 border-0">
-                      <div>
-                        <h4 className="fs-16 mb-0 text-black font-w600">
-                          Increase 25%
-                        </h4>
-                        <span className="fs-12">Comparisson</span>
-                      </div>
-                      <div className="dropdown bootstrap-select form-control style-1 default-select">
-                        <Dropdown>
-                          <Dropdown.Toggle
-                            variant=""
-                            id="dropdown-basic"
-                            className="default-select style-1 btn filter-option"
-                            style={{
-                              fontSize: "12px",
-                              fontWeight: "400",
-                            }}
-                          >
-                            {refreshToggle ? refreshToggle : "Daily"}
-                          </Dropdown.Toggle>
-
-                          <Dropdown.Menu
-                            className="dropdown-menu inner show"
-                            style={{ borderRadius: "10px" }}
-                          >
-                            <Dropdown.Item
-                              className="dropdown-item"
-                              href="#"
-                              onClick={() => setRefreshToggle("Daily")}
-                              style={{
-                                fontSize: "12px",
-                                fontWeight: "400",
-                                margin: "0 auto",
-                                paddingTop: "15px",
-                              }}
-                            >
-                              Daily
-                            </Dropdown.Item>
-                            <Dropdown.Item
-                              className="dropdown-item"
-                              href="#"
-                              onClick={() => setRefreshToggle("Monthly")}
-                              style={{
-                                fontSize: "12px",
-                                fontWeight: "400",
-                                margin: "0 auto",
-                              }}
-                            >
-                              Monthly
-                            </Dropdown.Item>
-                            <Dropdown.Item
-                              className="dropdown-item"
-                              href="#"
-                              onClick={() => setRefreshToggle("Weekly")}
-                              style={{
-                                fontSize: "12px",
-                                fontWeight: "400",
-                                margin: "0 auto",
-                              }}
-                            >
-                              Weekly
-                            </Dropdown.Item>
-                          </Dropdown.Menu>
-                        </Dropdown>
-                      </div>
-                    </div>
-                    <div className="card-body pt-0">
-                      <div className="chartjs-size-monitor">
-                        <div className="chartjs-size-monitor-expand">
-                          <div className=""></div>
-                        </div>
-                        <div className="chartjs-size-monitor-shrink">
-                          <div className=""></div>
-                        </div>
-                      </div>
-                      <Increase />
                     </div>
                   </div>
                 </div>
