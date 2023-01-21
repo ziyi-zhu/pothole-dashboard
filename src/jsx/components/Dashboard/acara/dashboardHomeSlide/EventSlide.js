@@ -93,11 +93,6 @@ const EventSlide = () => {
                 <span className="fs-14 text-black d-block mb-3">
                   Riyadh, Saudi Arabia
                 </span>
-                <p className="fs-12">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad mini
-                </p>
                 <ul>
                   <li>
                     <i className="las la-star" />
@@ -135,11 +130,6 @@ const EventSlide = () => {
                 <span className="fs-14 text-black d-block mb-3">
                   Jeddah, Saudi Arabia
                 </span>
-                <p className="fs-12">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad mini
-                </p>
                 <ul>
                   <li>
                     <i className="las la-star" />
@@ -177,11 +167,6 @@ const EventSlide = () => {
                 <span className="fs-14 text-black d-block mb-3">
                   Riyadh, Saudi Arabia
                 </span>
-                <p className="fs-12">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad mini
-                </p>
                 <ul>
                   <li>
                     <i className="las la-star" />
@@ -219,11 +204,6 @@ const EventSlide = () => {
                 <span className="fs-14 text-black d-block mb-3">
                   Jeddah, Saudi Arabia
                 </span>
-                <p className="fs-12">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad mini
-                </p>
                 <ul>
                   <li>
                     <i className="las la-star" />

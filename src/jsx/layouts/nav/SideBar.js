@@ -169,12 +169,12 @@ class SideBar extends Component {
 				data-target="#addOrderModalside"
 				onClick={() => this.setState({ newEvent: true })}
 			  >
-				+ New Potholes
+				+ New Scene
 			</Button>
 			<Modal className="modal fade" show={this.state.newEvent}>
 				<div className="modal-content">
 				  <div className="modal-header">
-					<h5 className="modal-title">Add Image</h5>
+					<h5 className="modal-title">Add Scene</h5>
 					<Button
 					  variant=""
 					  type="button"
@@ -195,7 +195,7 @@ class SideBar extends Component {
 					>
 					  <div>
 						<div className="form-group">
-						  <label className="text-black font-w500">Road Name</label>
+						  <label className="text-black font-w500">Scene Name</label>
 						  <input type="text" className="form-control" />
 						</div>
 						<div className="form-group">

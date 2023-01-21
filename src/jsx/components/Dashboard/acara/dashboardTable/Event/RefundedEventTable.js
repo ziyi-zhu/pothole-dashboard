@@ -8,7 +8,7 @@ const RefundedEventTable = () => {
    const [data, setData] = useState(
       document.querySelectorAll("#example4_wrapper tbody tr")
    );
-   const sort = 10;
+   const sort = 20;
    const activePag = useRef(0);
    const [test, settest] = useState(0);
 

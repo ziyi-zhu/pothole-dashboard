@@ -260,23 +260,10 @@ const EventDetail = () => {
                     </div>
                   </div>
                   <h4 className="fs-20 text-black font-w600">
-                    Road Description
+                    Scene Description
                   </h4>
                   <p className="fs-14 mb-0">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum Lorem ipsum dolor sit
-                    amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi
-                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat
+                    King Faisal Road (Arabic: شارع الملك فيصل), formerly al-Wazir Street (Arabic: شارع الوزير) is a 5 km historic and commercial street in southern Riyadh, Saudi Arabia, running from the east of al-Bateha neighborhood to al-Murabba via Jabrah and ad-Dirah. The name 'al-Wazir' was derived from the nickname of the country's first finance minister, Abdullah bin Suleiman al-Hamdan, who was better known as Wazīr Kullī Shaīʾ. It was later renamed after the third king of Saudi Arabia, Faisal ibn Abdulaziz. The street was once a preferred destination for commercial activity in the city and was also a bustling marketplace for imported and domestic goods.
                   </p>
                 </div>
               </div>
