@@ -238,7 +238,7 @@ const Home = () => {
               >
                 <div className="pb-3 mb-3 border-bottom">
                   <p className="font-w600">
-                    <Link to="/event" className="text-black">
+                    <Link to="/potholes" className="text-black">
                       Pothole #1191
                     </Link>
                   </p>
@@ -264,7 +264,7 @@ const Home = () => {
                 </div>
                 <div className="pb-3 mb-3 border-bottom">
                   <p className="font-w600">
-                    <Link to="/event" className="text-black">
+                    <Link to="/potholes" className="text-black">
                       Pothole #1190
                     </Link>
                   </p>
@@ -290,7 +290,7 @@ const Home = () => {
                 </div>
                 <div className="pb-3 mb-3 border-bottom">
                   <p className="font-w600">
-                    <Link to="/event" className="text-black">
+                    <Link to="/potholes" className="text-black">
                       Pothole #1189
                     </Link>
                   </p>
@@ -316,7 +316,7 @@ const Home = () => {
                 </div>
                 <div className="pb-3 mb-3 border-bottom">
                   <p className="font-w600">
-                    <Link to="/event" className="text-black">
+                    <Link to="/potholes" className="text-black">
                       Pothole #1188
                     </Link>
                   </p>
@@ -342,7 +342,7 @@ const Home = () => {
                 </div>
                 <div className="pb-3 mb-3 border-bottom">
                   <p className="font-w600">
-                    <Link to="/event" className="text-black">
+                    <Link to="/potholes" className="text-black">
                       Pothole #1187
                     </Link>
                   </p>
@@ -487,10 +487,10 @@ const Home = () => {
                       </svg>
                     </Dropdown.Toggle>
                     <Dropdown.Menu className="dropdown-menu dropdown-menu-right">
-                      <Dropdown.Item className="dropdown-item" to="/events">
+                      <Dropdown.Item className="dropdown-item" to="/potholes">
                         Details
                       </Dropdown.Item>
-                      <Dropdown.Item className="dropdown-item" to="/events">
+                      <Dropdown.Item className="dropdown-item" to="/potholes">
                         Cancel
                       </Dropdown.Item>
                     </Dropdown.Menu>
