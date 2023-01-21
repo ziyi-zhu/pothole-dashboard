@@ -87,7 +87,7 @@ const EventSlide = () => {
               <div className="info">
                 <p className="fs-18 font-w600">
                   <Link to="/scene-detail" className="text-black">
-                    Scene 1
+                    Segment #01 (Scene 1)
                   </Link>
                 </p>
                 <span className="fs-14 text-black d-block mb-3">
@@ -95,16 +95,16 @@ const EventSlide = () => {
                 </span>
                 <ul>
                   <li>
-                    <i className="las la-star" />
-                    51.6
+                    <i className="las la-trophy" />
+                    59.9
                   </li>
                   <li>
                     <i className="las la-calendar" />
                     Jan. 15, 2023
                   </li>
                   <li>
-                    <i className="fa fa-wrench" />
-                    1,191
+                    <i className="las la-ruler-horizontal" />
+                    0-10 m
                   </li>
                   <li>
                     <i className="las la-clock" />
@@ -124,7 +124,7 @@ const EventSlide = () => {
               <div className="info">
                 <p className="fs-18 font-w600">
                   <Link to="/scene-detail" className="text-black">
-                    Scene 2
+                    Segment #01 (Scene 2)
                   </Link>
                 </p>
                 <span className="fs-14 text-black d-block mb-3">
@@ -132,16 +132,16 @@ const EventSlide = () => {
                 </span>
                 <ul>
                   <li>
-                    <i className="las la-star" />
-                    53.2
+                    <i className="las la-trophy" />
+                    72.0
                   </li>
                   <li>
                     <i className="las la-calendar" />
                     Jan. 15, 2023
                   </li>
                   <li>
-                    <i className="fa fa-wrench" />
-                    500
+                    <i className="las la-ruler-horizontal" />
+                    0-10 m
                   </li>
                   <li>
                     <i className="las la-clock" />
@@ -161,7 +161,7 @@ const EventSlide = () => {
               <div className="info">
                 <p className="fs-18 font-w600">
                   <Link to="/scene-detail" className="text-black">
-                    Scene 1
+                    Segment #04 (Scene 2)
                   </Link>
                 </p>
                 <span className="fs-14 text-black d-block mb-3">
@@ -169,16 +169,16 @@ const EventSlide = () => {
                 </span>
                 <ul>
                   <li>
-                    <i className="las la-star" />
-                    51.6
+                    <i className="las la-trophy" />
+                    46.5
                   </li>
                   <li>
                     <i className="las la-calendar" />
                     Jan. 15, 2023
                   </li>
                   <li>
-                    <i className="fa fa-wrench" />
-                    1,191
+                    <i className="las la-ruler-horizontal" />
+                    30-40 m
                   </li>
                   <li>
                     <i className="las la-clock" />
@@ -198,7 +198,7 @@ const EventSlide = () => {
               <div className="info">
                 <p className="fs-18 font-w600">
                   <Link to="/scene-detail" className="text-black">
-                    Scene 2
+                    Segment #03 (Scene 2)
                   </Link>
                 </p>
                 <span className="fs-14 text-black d-block mb-3">
@@ -206,16 +206,16 @@ const EventSlide = () => {
                 </span>
                 <ul>
                   <li>
-                    <i className="las la-star" />
-                    53.2
+                    <i className="las la-trophy" />
+                    24.9
                   </li>
                   <li>
                     <i className="las la-calendar" />
                     Jan. 15, 2023
                   </li>
                   <li>
-                    <i className="fa fa-wrench" />
-                    500
+                    <i className="las la-ruler-horizontal" />
+                    20-30 m
                   </li>
                   <li>
                     <i className="las la-clock" />

@@ -448,7 +448,7 @@ const Home = () => {
           <div className="col-xl-12">
             <div className="card">
               <div className="card-header border-0 pb-sm-0 pb-5">
-                <h4 className="fs-20">Recent Scenes</h4>
+                <h4 className="fs-20">Road Segments</h4>
                 <div className="dropdown custom-dropdown mb-0">
                   <Dropdown className="dropdown">
                     <Dropdown.Toggle

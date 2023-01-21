@@ -245,7 +245,7 @@ class SideBar extends Component {
           </MM>
 			<div className="copyright">
 				<p>
-				  <strong>Pothole Classification Dashboard</strong> © 2023 All Rights
+				  <strong>Smartathon Dashboard</strong> © 2023 All Rights
 				  Reserved
 				</p>
 				<p>
